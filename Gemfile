@@ -11,6 +11,12 @@ gem 'rails', '~> 5.1.4'
 
 gem 'bootstrap-sass','3.3.7'
 
+# bcrypt for hash password
+
+gem 'bcrypt', '3.1.11'
+
+#gem 'bcrypt', platforms:ruby
+
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '1.3.13'
 # Use Puma as the app server
