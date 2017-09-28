@@ -17,6 +17,9 @@ gem 'bcrypt', '3.1.11'
 
 #gem 'bcrypt', platforms:ruby
 
+# Udd fake users
+gem 'faker', '1.7.3'
+
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '1.3.13'
 # Use Puma as the app server
