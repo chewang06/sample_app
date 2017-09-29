@@ -30,6 +30,7 @@ class User < ApplicationRecord
     BCrypt::Password.new(digest).is_password?(token)
   end
 
+
     private
 
     # Converts email to all lower-case.
